@@ -1,10 +1,10 @@
-import React from 'react';
-import HomePage from './pages/homepage';
-import HatsShopPage from './pages/shoppage';
-import Header from './components/header';
-import {Switch, Route} from 'react-router-dom';
+import React from 'react'
+import HomePage from './pages/homepage'
+import HatsShopPage from './pages/shoppage'
+import Header from './components/header'
+import {Switch, Route} from 'react-router-dom'
 
-import './App.css';
+import './App.css'
 
 const Jackets = () => (
   <h1> Jackets </h1>
@@ -21,7 +21,7 @@ function App() {
 
       </Switch>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

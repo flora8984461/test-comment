@@ -1,6 +1,6 @@
-import React from 'react';
-import DirectoryMenu from '../components/directory-menu';
-import '../styles/style.scss';
+import React from 'react'
+import DirectoryMenu from '../components/directory-menu'
+import '../styles/style.scss'
  
 const HomePage = () => (
     <div className='homepage'>
@@ -9,4 +9,4 @@ const HomePage = () => (
     </div>
 )
 
-export default HomePage;
+export default HomePage

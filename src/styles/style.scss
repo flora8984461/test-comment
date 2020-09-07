@@ -1,3 +1,8 @@
+
+body {
+  padding: 20px 60px;
+}
+
 .homepage {
     display: flex;
     flex-direction: column;
@@ -124,18 +129,19 @@
     .title {
       font-size: 28px;
       margin-bottom: 25px;
+      padding-left: 20px;
     }
   
     .preview {
-      // display: flex;
-      // justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
       text-align: center;
     }
   }
 
   .collection-item {
     width: 22%;
-    // display: flex;
+    display: flex;
     flex-direction: column;
     height: 350px;
     align-items: center;
